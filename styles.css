@@ -1,0 +1,29 @@
+body {
+  background-color: DimGrey;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Game";
+  src: url("game-font.TTF")
+}
+
+section {
+  text-align: center;
+  font-family: "Game";
+  color: DarkSeaGreen;
+  background-color: Black;
+}
+
+a {
+  text-decoration: none;
+  border: 2px solid DarkSlateGrey;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+a:hover {
+  border: 1px solid LightSlateGray;
+  padding: 25px;
+}
+  
